@@ -4,7 +4,8 @@
 __pycache__/
 local_settings.py
 db.sqlite3
-/media
+/app/media
 venv
 /static
 .vscode
+btre-private-key.pem
