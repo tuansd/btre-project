@@ -149,14 +149,14 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 # Messages
-MESSAGE_TAGS = {
-    # messages.ERROR: 'danger'
-    messages.ERROR: 'danger'
-}
+# MESSAGE_TAGS = {
+#     # messages.ERROR: 'danger'
+#     messages.ERROR: 'danger'
+# }
 
 # Email config
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'name@gmail.com'
-EMAIL_HOST_PASSWORD = '123456'
+EMAIL_HOST_PASSWORD = 'django1234'
 EMAIL_USE_TLS = True
